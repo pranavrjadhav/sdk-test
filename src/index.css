@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+   margin: 40p;
+   background-color: rgb(184, 181, 176);
+}
+
+.btn {
+  background-color: rgb(138, 214, 172);
+  padding: 10px 15px;
+  margin: 10px 0;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  border: 2px greenyellow;
+}
