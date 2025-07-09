@@ -14,8 +14,11 @@ function App() {
     </h1>
    </div>
 
+    <div class="min-h-screen bg-gray-100 flex items-center justify-center">
+      <CounterCard />
+    </div>
 
-    <ShowTextButton/>
+    
 
     </>
   );
