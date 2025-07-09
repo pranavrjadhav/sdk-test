@@ -1,5 +1,5 @@
 /* @refresh reload */
-import { render } from 'solid-js/web';
+import { delegateEvents, render } from 'solid-js/web';
 
 import './index.css';
 import App from './App';
@@ -21,6 +21,6 @@ import App from './App';
 
 window.SolidApp = (target = document.body) => {
   console.log('[SolidJS] SolidApp called with:', target);
-  render(() => <App />, target);
+  render(() => <App />, target,{delegateEvents:false});
   console.log('[SolidJS] App rendered successfully');
 };
