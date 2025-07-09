@@ -1,4 +1,5 @@
 import CounterCard from "./CounterCard";
+import ShowTextButton from "./ShowTextButton";
 
 function App() {
 
@@ -13,9 +14,9 @@ function App() {
     </h1>
    </div>
 
-    <div class="min-h-screen bg-gray-100 flex items-center justify-center">
-      <CounterCard />
-    </div>
+
+    <ShowTextButton/>
+
     </>
   );
 }

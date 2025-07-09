@@ -14,6 +14,13 @@ import App from './App';
 
 // render(() => <App />, root);
 
+// window.SolidApp = (target = document.body) => {
+//   render(() => <App />, target);
+// };
+
+
 window.SolidApp = (target = document.body) => {
+  console.log('[SolidJS] SolidApp called with:', target);
   render(() => <App />, target);
+  console.log('[SolidJS] App rendered successfully');
 };
