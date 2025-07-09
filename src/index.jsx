@@ -12,7 +12,7 @@ import App from './App';
 //   );
 // }
 
-render(() => <App />, root);
+// render(() => <App />, root);
 
 window.SolidApp = (target = document.body) => {
   render(() => <App />, target);
