@@ -10,7 +10,7 @@ export default function CounterCard() {
       <div class="flex justify-center items-center space-x-4 mb-4">
         <button
           class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-          onClick={() => setCount(count() - 1)}
+          onClick={() => {   console.log('[SolidJS] Decrement clicked'); setCount(count() - 1);  console.log('[SolidJS] Decrement clicked value'+ count());}}
         >
           -
         </button>
@@ -19,7 +19,7 @@ export default function CounterCard() {
 
         <button
           class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
-          onClick={() => setCount(count() + 1)}
+          onClick={() => {  console.log('[SolidJS] Increment clicked'); setCount(count() + 1);  console.log('[SolidJS] Increment clicked value'+count());}}
         >
           +
         </button>
