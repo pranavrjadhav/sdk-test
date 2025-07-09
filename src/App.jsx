@@ -1,4 +1,4 @@
-
+import CounterCard from "./CounterCard";
 
 function App() {
 
@@ -12,6 +12,10 @@ function App() {
       This is Solid JS
     </h1>
    </div>
+
+    <div class="min-h-screen bg-gray-100 flex items-center justify-center">
+      <CounterCard />
+    </div>
     </>
   );
 }
